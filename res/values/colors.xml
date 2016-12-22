@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#fbf3e0</color>
+    <color name="bgsave">#9cf2d9</color>
+    <color name="bgclear">#e8fbe0</color>
+    <color name="bcolor">#620028</color>
+    <color name="white">#FFFFFF</color>
+    <color name="skyblue">#58cbe9</color>
+    <color name="try1">#640E0E</color>
+    
+</resources>

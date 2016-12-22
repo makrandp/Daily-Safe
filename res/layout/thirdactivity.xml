@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/paint2" >
+    
+      <EditText
+        android:id="@+id/editTextmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:ems="10" 
+        android:hint="Enter Your Message Here">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextnumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextmessage"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter Mobile Number" 
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp" 
+        android:weightSum="100"
+                  >
+
+        <Button
+            android:id="@+id/buttonsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+       android:background="@drawable/selector"
+       
+            android:text="Save"
+            android:textColor="#FFFFFF" 
+                          />
+
+        <Button
+            android:id="@+id/buttonclear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_weight="50" 
+              android:background="@drawable/selector"
+               android:textColor="#FFFFFF" 
+               />
+
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>
